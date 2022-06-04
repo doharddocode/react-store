@@ -1,0 +1,16 @@
+.book-item .book-thumbnail {
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.book-item .success-add-to-cart {
+  margin: 10px 0 0 0;
+  padding: 0.5rem 0.75rem;
+
+  font-size: 14px;
+}
+
+.book-item .success-add-to-cart .text {
+  font-weight: 500;
+}

@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.header .navbar {
+  padding: 20px 0;
+}
+
+.header .navbar-brand a {
+  text-decoration: none;
+  color: #212529;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+header .cart-total {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+  font-size: 18px;
+}
+
+header .cart-total:before {
+  display: inline-block;
+  margin-right: 10px;
+
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 25px;
+  color: #0d6efd;
+  content: "\f218";
+}
+header .cart-total .items-counter {
+  margin-right: 10px;
+}
+
+header .cart-total .items-counter a {
+  text-decoration: none;
+  color: #212529;
+}
+
+header .cart-total .items-counter .key {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+header .cart-total .items-counter > *:last-child {
+  margin-right: 0;
+}
+
+.header .cart-total .items-price {
+  font-weight: 600;
+}
